@@ -189,9 +189,10 @@
     </module>
     <module name="NoFinalizer"/>
     <module name="MethodParamPad">
-      <property name="tokens"
-        value="CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF, SUPER_CTOR_CALL, ENUM_CONSTANT_DEF, RECORD_DEF"/>
-    </module>
+  <property name="tokens"
+           value="CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF, SUPER_CTOR_CALL"/>
+</module>
+
     <module name="AnnotationLocation">
       <property name="id" value="AnnotationLocationMostCases"/>
       <property name="tokens"
