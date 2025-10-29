@@ -17,12 +17,7 @@ eclipse {
     }
 }
 
-// Use Java 21; switch to 17 if your course requires it
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
+eclipse.project.name = 'My Project' 
 
 // Your folder layout: src/ for main code, test/ for tests
 sourceSets {
